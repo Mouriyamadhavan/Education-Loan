@@ -1,0 +1,95 @@
+.vloan-bdy {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px 0 100px 0;
+    background-color: rgb(235, 235, 235);
+    scroll-behavior: smooth;
+}
+
+.vloan-nav {
+    padding: 0px 40px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vloan-nav .n-link button {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.vloan-nav .n-link button:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: var(--pri-col);
+}
+
+.vloan-table {
+    display: flex;
+    justify-content: center;
+}
+
+.vloan-table1 .m-head {
+    border: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 235, 235);
+    font-size: 20px !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vloan-table1 table {
+    width: 95%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.vloan-table1 tr th {
+    color: black;
+    background-color: var(--pri-col);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    height: 42px;
+    font-size: 17px;
+    font-weight: 550;
+    padding: 10px 5px 10px 5px;
+}
+
+.vloan-table1 td {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px !important;
+    font-weight: 500;
+    padding: 10px 5px 10px 5px;
+}
+
+.vloan-table1 tr:nth-child(odd) {
+    background-color: white;
+}
+
+.vloan-table1 th,
+.vloan-table1 td {
+    border: 2px solid black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.vloan-table1 tr td:nth-child(1) {
+    width: 80px;
+}
+
+.vloan-table1 tr td:nth-child(2) {
+    width: 180px;
+    padding-top: 7px;
+}

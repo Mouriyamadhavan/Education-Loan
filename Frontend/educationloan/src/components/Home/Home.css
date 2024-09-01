@@ -1,0 +1,118 @@
+.hm-1 {
+    max-height: 100vh;
+    background-image: url("../../assets/eduloan1.jpg");
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.hm-1 .hm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--pri-col);
+}
+
+.hm .hm-intro {
+    font-size: 20px;
+    font-weight: 550;
+    color: black;
+}
+
+.hm-1 .hm-body1 {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hm-1 .hm-bd {
+    min-height: 160px;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    gap: 20px;
+}
+.hm-1 .hm-bd:hover{
+    background-color: var(--pri-col);
+}
+.hm-1 .hm-bd p {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.hm-1 .hm-bd:hover p {
+    color: white;
+    transform: scale(1.04);
+}
+
+.hm-1 .hm-bd .h-icon {
+    color: black;
+}
+
+.hm-1 .hm-bd:hover .h-icon {
+    color: white;
+    transform: scale(1.04);
+}
+
+.footer-cont1 {
+    bottom: 0;
+    position: sticky;
+    background-color: var(--pri-col);
+    padding: 0px 80px 0px 80px;
+    min-height: 80px;
+}
+
+.footer-cont1 .footer-cont {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+}
+
+.footer-cont1 .footer-cont .copy-txt {
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-cont1 .footer-cont .f-social {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-cont .f-social a .f-icon {
+    color: initial;
+}
+
+.footer-cont .f-social a:hover .f-icon {
+    transform: scale(1.08);
+    border-radius: 25%;
+    background-color: white;
+}
+
+.f-social .instagram:hover .f-icon {
+    color: rgb(255, 0, 187);
+}
+
+.f-social .twitter:hover .f-icon {
+    color: #00acee;
+}
+
+.f-social .linkedin:hover .f-icon {
+    color: blue;
+}
+
+.f-social .github:hover .f-icon {
+    color: black;
+}
+
+.f-social .mail:hover .f-icon {
+    color: red;
+}
